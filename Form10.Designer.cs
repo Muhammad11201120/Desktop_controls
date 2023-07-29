@@ -113,6 +113,7 @@
             this.btnRandom.TabIndex = 4;
             this.btnRandom.Text = "Fill Random";
             this.btnRandom.UseVisualStyleBackColor = true;
+            this.btnRandom.Click += new System.EventHandler(this.btnRandom_Click);
             // 
             // btnRemove
             // 
@@ -199,6 +200,7 @@
             this.rbTaile.TabStop = true;
             this.rbTaile.Text = "Tile";
             this.rbTaile.UseVisualStyleBackColor = true;
+            this.rbTaile.CheckedChanged += new System.EventHandler(this.rbTaile_CheckedChanged);
             // 
             // rbList
             // 
@@ -210,6 +212,7 @@
             this.rbList.TabStop = true;
             this.rbList.Text = "List";
             this.rbList.UseVisualStyleBackColor = true;
+            this.rbList.CheckedChanged += new System.EventHandler(this.rbList_CheckedChanged);
             // 
             // rbLargeIcons
             // 
@@ -221,6 +224,7 @@
             this.rbLargeIcons.TabStop = true;
             this.rbLargeIcons.Text = "Large Icons";
             this.rbLargeIcons.UseVisualStyleBackColor = true;
+            this.rbLargeIcons.CheckedChanged += new System.EventHandler(this.rbLargeIcons_CheckedChanged);
             // 
             // rbSmallIcons
             // 
@@ -232,6 +236,7 @@
             this.rbSmallIcons.TabStop = true;
             this.rbSmallIcons.Text = "Small Icons";
             this.rbSmallIcons.UseVisualStyleBackColor = true;
+            this.rbSmallIcons.CheckedChanged += new System.EventHandler(this.rbSmallIcons_CheckedChanged);
             // 
             // rbDetails
             // 
@@ -243,6 +248,7 @@
             this.rbDetails.TabStop = true;
             this.rbDetails.Text = "Details";
             this.rbDetails.UseVisualStyleBackColor = true;
+            this.rbDetails.CheckedChanged += new System.EventHandler(this.rbDetails_CheckedChanged);
             // 
             // lblTitle
             // 
@@ -280,7 +286,6 @@
             this.listView1.SmallImageList = this.imageList1;
             this.listView1.TabIndex = 13;
             this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.Tile;
             // 
             // columnHeader1
             // 

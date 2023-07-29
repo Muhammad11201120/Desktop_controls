@@ -55,3 +55,10 @@ D:\Programing\c#\winForms\training!\Desktop_controls\obj\Debug\training1.csproj.
 D:\Programing\c#\winForms\training!\Desktop_controls\obj\Debug\training!.exe
 D:\Programing\c#\winForms\training!\Desktop_controls\obj\Debug\training!.pdb
 D:\Programing\c#\winForms\training!\Desktop_controls\obj\Debug\training_.frmListView.resources
+D:\Programing\c#\winForms\training!\Desktop_controls\obj\Debug\training_.frmErrorProvider.resources
+D:\Programing\c#\winForms\training!\Desktop_controls\obj\Debug\training_.Form12.resources
+D:\Programing\c#\winForms\training!\Desktop_controls\obj\Debug\training_.frmNumeric.resources
+D:\Programing\c#\winForms\training!\Desktop_controls\obj\Debug\training_.frmTapControl.resources
+D:\Programing\c#\winForms\training!\Desktop_controls\obj\Debug\training_.frmPanel.resources
+D:\Programing\c#\winForms\training!\Desktop_controls\obj\Debug\training_.frmDialogs.resources
+D:\Programing\c#\winForms\training!\Desktop_controls\obj\Debug\training_.frmMdi.resources

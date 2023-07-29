@@ -63,5 +63,52 @@ namespace training_
             frmListView form = new frmListView();
             form.ShowDialog();
         }
+
+        private void btnErrorProvider_Click( object sender, EventArgs e )
+        {
+            frmErrorProvider form = new frmErrorProvider();
+            form.ShowDialog();
+        }
+
+        private void Form1_Load( object sender, EventArgs e )
+        {
+
+        }
+
+        private void btnTrckBar_Click( object sender, EventArgs e )
+        {
+            Form12 form = new Form12();
+            form.ShowDialog();
+        }
+
+        private void btnNumeric_Click( object sender, EventArgs e )
+        {
+            frmNumeric form = new frmNumeric();
+            form.ShowDialog();
+        }
+
+        private void btnTapVontrol_Click( object sender, EventArgs e )
+        {
+            frmTapControl form = new frmTapControl();
+            form.ShowDialog();
+        }
+
+        private void btnPanel_Click( object sender, EventArgs e )
+        {
+            frmPanel form = new frmPanel();
+            form.ShowDialog();
+        }
+
+        private void btnDialogs_Click( object sender, EventArgs e )
+        {
+            frmDialogs form = new frmDialogs();
+            form.ShowDialog();
+        }
+
+        private void btnMdi_Click( object sender, EventArgs e )
+        {
+            frmMdi form = new frmMdi();
+            form.ShowDialog();
+        }
     }
 }
